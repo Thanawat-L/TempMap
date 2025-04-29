@@ -17,3 +17,17 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+
+temperature-mapping-app/
+├── app.py                  # ไฟล์หลักของ Streamlit app
+├── utils/
+│   ├── __init__.py
+│   ├── data_processor.py   # ฟังก์ชันสำหรับประมวลผลข้อมูล
+│   ├── visualization.py    # ฟังก์ชันสำหรับสร้างกราฟ
+│   └── analysis.py         # ฟังก์ชันสำหรับวิเคราะห์ข้อมูลสถิติ
+├── requirements.txt        # แพ็คเกจที่จำเป็น
+└── data/                   # โฟลเดอร์สำหรับเก็บข้อมูลชั่วคราว
+    ├── csv/                # โฟลเดอร์สำหรับไฟล์ CSV
+    ├── excel/              # โฟลเดอร์สำหรับไฟล์ Excel
+    ├── reports/            # โฟลเดอร์สำหรับรายงานผลลัพธ์
+    └── temp/               # โฟลเดอร์สำหรับไฟล์ชั่วคราว
